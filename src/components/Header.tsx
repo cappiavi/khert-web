@@ -15,14 +15,8 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            className="font-display text-2xl md:text-3xl font-bold neon-text cursor-pointer"
-            onClick={() => scrollToSection("hero")}
-          >
-            bai
-          </motion.div>
+          {/* Logo spacer */}
+          <div className="w-10" />
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
